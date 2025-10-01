@@ -3,8 +3,8 @@
 This is a simple static website hosted with **GitHub Pages**.
 
 ## 🚀 How to View
-- GitHub Repo: [https://github.com/your-username/my-website](https://github.com/your-username/my-website)
-- Live Website: [https://your-username.github.io/my-website/](https://your-username.github.io/my-website/)
+- GitHub Repo: [https://github.com/nagarajucsd/elevatelabs-task-6](https://github.com/nagarajucsd/elevatelabs-task-6)
+- Live Website: [https://nagarajucsd.github.io/elevatelabs-task-6/](https://nagarajucsd.github.io/elevatelabs-task-6/)
 
 ## 📂 Files
 - `index.html` → Main website page
