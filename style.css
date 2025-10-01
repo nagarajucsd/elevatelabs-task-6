@@ -1,0 +1,61 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #f9f9f9;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Headline styling */
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  animation: fadeInDown 1.2s ease-in-out;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.3em;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 auto 30px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Button styling */
+button {
+  background: #ff7eb3;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background: #ff5277;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
